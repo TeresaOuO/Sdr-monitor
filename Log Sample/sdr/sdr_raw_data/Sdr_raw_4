@@ -1,0 +1,106 @@
+HDD_INLET_TEMP   | 81h | ok  | 55.0 | 40 degrees C
+SYS_AMB_TEMP     | 80h | ok  | 55.0 | 30 degrees C
+SYS_VBAT         | 20h | ok  | 40.1 | 3.04 Volts
+SYS_VCORE_CPU_0  | 21h | ok  |  9.1 | 1.79 Volts
+SYS_PVCCSA_CPU0  | 22h | ok  |  9.1 | 0.87 Volts
+SYS_VCCIO_CPU0   | 23h | ok  |  9.1 | 1.00 Volts
+SYS_VMEM_VDDQ_0  | 27h | ok  |  9.1 | 1.22 Volts
+SYS_VMEM_VDDQ_1  | 28h | ok  |  9.1 | 1.22 Volts
+SYS_VMEM_VPP_0   | 2Bh | ok  |  9.1 | 2.62 Volts
+SYS_VMEM_VPP_1   | 2Ch | ok  |  9.1 | 2.62 Volts
+SYS_VMEM_VTT_0   | 38h | ok  |  7.0 | 0.60 Volts
+SYS_VMEM_VTT_1   | 39h | ok  |  7.0 | 0.60 Volts
+SYS_PVNN_PCH_AUX | 2Fh | ok  |  9.1 | 0.99 Volts
+SYS_V3.3_STBY    | 34h | ok  |  7.0 | 3.30 Volts
+SYS_PGPPA_STBY   | 31h | ok  |  7.0 | 3.32 Volts
+SYS_V3.3         | 35h | ok  |  7.0 | 3.35 Volts
+SYS_V1.8_PCH     | 32h | ok  |  7.0 | 1.80 Volts
+SYS_V5           | 30h | ok  |  7.0 | 5.08 Volts
+SYS_V1.05_STBY   | 33h | ok  |  7.0 | 1.06 Volts
+SYS_V12_STBY     | 36h | ok  |  7.0 | 11.68 Volts
+SYS_V12          | 37h | ok  |  7.0 | 11.62 Volts
+SYS_HSC_PWR_IN   | 24h | ok  |  7.0 | 99 Watts
+K2T_QB_POWER     | 25h | ok  |  7.0 | 32 Watts
+SYS_FAN_POWER    | 26h | ok  |  7.0 | 2.56 Watts
+CPU_0_DTS_TEMP   | 44h | ok  |  3.0 | -47 degrees C
+CPU_0_PECI_TEMP  | 40h | ok  |  3.0 | 43 degrees C
+CPU_0_MARGIN     | 7Ch | ok  |  3.0 | 36 degrees C
+CPU_0_DIMM_0_C_0 | 48h | ok  |  1.0 | 42 degrees C
+CPU_0_DIMM_0_C_1 | 4Ah | ok  |  1.0 | 46 degrees C
+CPU_0_DIMM_0_C_3 | 4Eh | ok  |  1.0 | 35 degrees C
+SYS_PCH_TEMP     | 8Ah | ok  |  1.0 | 34 degrees C
+K2T_0_0_SOC_TEMP | 8Bh | ok  | 55.0 | 47 degrees C
+K2T_0_1_SOC_TEMP | 8Ch | ok  | 55.0 | 41 degrees C
+SYS_FAN_0A       | 90h | lcr |  7.0 | 0 RPM
+SYS_FAN_0B       | 91h | lcr |  7.0 | 0 RPM
+SYS_FAN_1A       | 92h | lcr |  7.0 | 0 RPM
+SYS_FAN_1B       | 93h | lcr |  7.0 | 0 RPM
+SYS_FAN_2A       | 94h | lcr |  7.0 | 0 RPM
+SYS_FAN_2B       | 95h | lcr |  7.0 | 0 RPM
+SYS_Airflow      | 9Ah | ok  | 29.1 | 50 CFM
+ACPI_POWER_STATE | 0Eh | ok  |  0.0 | S0/G0: working
+BMC_INTERNAL_WD  | 16h | ok  |  0.0 | 
+DBGLOG_RDY       | BAh | ok  |  0.0 | 
+DBGLOG_FULL      | BBh | ok  |  0.0 | 
+JBOD1_AMB_TEMP   | 51h | ok  | 55.0 | 25 degrees C
+JBOD1_FAN0       | 53h | ok  |  7.0 | 5670 RPM
+JBOD1_FAN1       | 54h | ok  |  7.0 | 5600 RPM
+JBOD1_Airflow    | B3h | ok  | 29.1 | 14.40 CFM
+JBOD1_3224_TEMP  | 59h | ok  | 55.0 | 86 degrees C
+JBOD1_HDD00_TEMP | 5Bh | ok  | 55.0 | 48 degrees C
+JBOD1_HDD01_TEMP | 5Ch | ok  | 55.0 | 50 degrees C
+JBOD1_HDD02_TEMP | 5Dh | ok  | 55.0 | 44 degrees C
+JBOD1_HDD03_TEMP | 5Eh | ok  | 55.0 | 54 degrees C
+JBOD1_HDD04_TEMP | 5Fh | ok  | 55.0 | 58 degrees C
+JBOD1_HDD05_TEMP | 60h | ok  | 55.0 | 52 degrees C
+JBOD1_HDD06_TEMP | 61h | ok  | 55.0 | 54 degrees C
+JBOD1_HDD07_TEMP | 62h | ok  | 55.0 | 59 degrees C
+JBOD1_HDD08_TEMP | 63h | ok  | 55.0 | 53 degrees C
+JBOD1_HDD09_TEMP | 64h | ok  | 55.0 | 46 degrees C
+JBOD1_HDD10_TEMP | 65h | ok  | 55.0 | 50 degrees C
+JBOD1_HDD11_TEMP | 66h | ok  | 55.0 | 47 degrees C
+JBOD1_HDD12_TEMP | 67h | ok  | 55.0 | 47 degrees C
+JBOD1_HDD13_TEMP | 68h | ok  | 55.0 | 53 degrees C
+JBOD1_HDD14_TEMP | 69h | ok  | 55.0 | 48 degrees C
+JBOD1_HDD15_TEMP | 6Ah | ok  | 55.0 | 45 degrees C
+JBOD1_HDD16_TEMP | 6Bh | ok  | 55.0 | 51 degrees C
+JBOD1_HDD17_TEMP | 6Ch | ok  | 55.0 | 47 degrees C
+JBOD1_HDD18_TEMP | 6Dh | ok  | 55.0 | 42 degrees C
+JBOD1_HDD19_TEMP | 6Eh | ok  | 55.0 | 48 degrees C
+JBOD1_HDD20_TEMP | 6Fh | ok  | 55.0 | 44 degrees C
+JBOD1_HDD21_TEMP | 70h | ok  | 55.0 | 38 degrees C
+JBOD1_HDD22_TEMP | 71h | ok  | 55.0 | 43 degrees C
+JBOD1_HDD23_TEMP | 72h | ok  | 55.0 | 40 degrees C
+JBOD1_HDD_FAIL   | BCh | ok  |  0.0 | 
+JBOD1_FAN_POWER  | 3Dh | ok  |  7.0 | 6.12 Watts
+JBOD1_HSC_STAT_L | CAh | ok  |  0.0 | 
+JBOD1_HSC_STAT_H | CBh | ok  |  0.0 | 
+CPU_Usage        | C1h | ok  |  0.0 | 1.80 unspecifie
+CPU_Util         | C2h | ok  |  0.0 | 15 percent
+NM_CUPS_CORE     | C3h | ok  |  0.0 | 16 percent
+NM_CUPS_MEMORY   | C4h | ok  |  0.0 | 0 percent
+BMC_Free_Memory  | C5h | ok  |  0.0 | 133 megabyte
+LUN_01_03        | C7h | ok  |  0.0 | Device Enabled
+JBOD1_HDD0_POWER | F0h | ok  |  7.0 | 6.05 Watts
+JBOD1_HDD3_POWER | F1h | ok  |  7.0 | 5.75 Watts
+JBOD1_HDD6_POWER | F2h | ok  |  7.0 | 5.95 Watts
+JBOD1_HDD9_POWER | F3h | ok  |  7.0 | 5.50 Watts
+SYS_HSC2_VIN     | 49h | ok  | 21.0 | 11.68 Volts
+SYS_HSC1_STAT_L  | 11h | ok  |  0.0 | 
+SYS_HSC1_STAT_H  | 12h | ok  |  0.0 | 
+SYS_HSC1_PEAK_P  | 45h | ok  | 21.0 | 150 Watts
+SYS_HSC1_VOUT    | 2Dh | ok  | 21.0 | 11.60 Volts
+SYS_HSC1_VIN     | 2Ah | ok  | 21.0 | 11.60 Volts
+SYS_HSC2_STAT_L  | 13h | ok  |  0.0 | 
+SYS_HSC2_PEAK_P  | 4Dh | ok  | 21.0 | 25 Watts
+SYS_HSC2_TEMP    | 4Fh | ok  | 21.0 | 30 degrees C
+SYS_HSC2_PWR_IN  | 4Ch | ok  | 21.0 | 10 Watts
+SYS_HSC1_PWR_IN  | 2Eh | ok  | 21.0 | 90 Watts
+SYS_HSC2_VOUT    | 4Bh | ok  | 21.0 | 11.68 Volts
+SYS_HSC1_TEMP    | 47h | ok  | 21.0 | 42 degrees C
+SYS_HSC2_STAT_H  | 14h | ok  |  0.0 | 
+JBOD1_HSC_PWR_IN | 3Ah | ok  |  7.0 | 140 Watts
+JBOD1_HSC_PEAK_P | 98h | ok  |  7.0 | 230 Watts
+JBOD1_HSC_TEMP   | 99h | ok  | 21.0 | 32 degrees C
+JBOD1_HSC_VIN    | 96h | ok  | 21.0 | 11.60 Volts
+JBOD1_HSC_VOUT   | 97h | ok  | 21.0 | 11.60 Volts
